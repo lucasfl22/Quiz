@@ -1,0 +1,54 @@
+{
+  "perguntas": [
+    {
+      "pergunta": "O que é PHP?",
+      "resposta_certa": "Uma linguagem de programação para desenvolvimento web",
+      "respostas_erradas": ["Um sistema de banco de dados", "Uma ferramenta de design", "Uma linguagem de marcação"]
+    },
+    {
+      "pergunta": "Qual a principal função do PHP em um site?",
+      "resposta_certa": "Processar dados no servidor e gerar conteúdo dinâmico",
+      "respostas_erradas": ["Criar a estrutura do layout", "Armazenar dados no navegador", "Exibir imagens"]
+    },
+    {
+      "pergunta": "Como você declara uma variável em PHP?",
+      "resposta_certa": "$nome_da_variavel",
+      "respostas_erradas": ["var nome_da_variavel", "nome_da_variavel = ", "let nome_da_variavel"]
+    },
+    {
+      "pergunta": "Qual a sintaxe correta para incluir um arquivo PHP em outro?",
+      "resposta_certa": "include('arquivo.php');",
+      "respostas_erradas": ["import 'arquivo.php';", "require('arquivo.php');", "use 'arquivo.php';"]
+    },
+    {
+      "pergunta": "Qual é o operador de concatenação de strings em PHP?",
+      "resposta_certa": ".",
+      "respostas_erradas": ["+", "&", ","]
+    },
+    {
+      "pergunta": "Qual função é utilizada para obter a data e hora atual em PHP?",
+      "resposta_certa": "date()",
+      "respostas_erradas": ["time()", "now()", "get_date()"]
+    },
+    {
+      "pergunta": "Como você define uma constante em PHP?",
+      "resposta_certa": "define('NOME_CONSTANTE', 'valor');",
+      "respostas_erradas": ["const NOME_CONSTANTE = 'valor';", "$NOME_CONSTANTE = 'valor';", "constant('NOME_CONSTANTE', 'valor');"]
+    },
+    {
+      "pergunta": "O que é um array associativo em PHP?",
+      "resposta_certa": "Um array onde as chaves são strings ou outros tipos, não apenas números",
+      "respostas_erradas": ["Um array que armazena apenas números", "Uma lista de objetos", "Um tipo de variável do PHP"]
+    },
+    {
+      "pergunta": "Como você começa um bloco de código PHP?",
+      "resposta_certa": "<?php",
+      "respostas_erradas": ["<php>", "<script>", "<start>"]
+    },
+    {
+      "pergunta": "Qual função PHP é usada para redirecionar o usuário para outra página?",
+      "resposta_certa": "header('Location: outra_pagina.php');",
+      "respostas_erradas": ["redirect('outra_pagina.php');", "go_to('outra_pagina.php');", "move_to('outra_pagina.php');"]
+    }
+  ]
+}
