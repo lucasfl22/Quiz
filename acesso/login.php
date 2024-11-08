@@ -18,6 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $usuario = mysqli_fetch_assoc($resultado);
         $_SESSION['usuario_id'] = $usuario['id'];
         $_SESSION['usuario_nome'] = $usuario['nome'];
+        $_SESSION['pontuacao'] = $usuario['pontuacao'];
         
         mysqli_stmt_close($stmt);
         mysqli_close($conexao);

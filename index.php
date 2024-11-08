@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="temas/tecnologia/tecnologia.css">
     <link rel="stylesheet" href="components/conteudo/conteudo.css">
     <link rel="stylesheet" href="temas/tecnologia/php/css/style.css">
+    <link rel="stylesheet" href="amizade/css/amizade.css">
     <link rel="stylesheet" href="components/rodape/rodape.css">
     <title>Quiz</title>
 </head>
@@ -24,6 +25,12 @@
         include_once("$pg.php");
     }
 
-    include_once("components/rodape/rodape.php");
+    if (!isset($pg) || $pg !== 'perfil/perfil') {
+        include_once("components/rodape/rodape.php");
+    }
 
 ?>
+
+<script src="amizade/js/amizade.js"></script>
+</body>
+</html>

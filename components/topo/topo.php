@@ -9,6 +9,7 @@ session_start();
         <nav class="nav-menu">
             <a href="index.php" class="nav-item auth-buttonn">Home</a>
             <a href="index.php?pg=ranking/ranking" class="nav-item auth-buttonn">Ranking</a>
+            <a href="index.php?pg=amizade/amizade" class="nav-item auth-buttonn">Amizade</a>
             
             <?php if(isset($_SESSION['usuario_nome'])): ?>
                 <a href="index.php?pg=perfil/perfil" class="nav-item profile-button">
