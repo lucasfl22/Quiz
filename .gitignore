@@ -1,0 +1,45 @@
+# Arquivos de configuração sensíveis
+acesso/config.inc.php
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache
+cache/
+*.cache
+
+# Arquivos de banco de dados
+*.sql
+*.sqlite
+
+# Arquivos de ambiente
+.env
+
+# Diretórios de dependências
+node_modules/
+vendor/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de compilação
+dist/
+build/
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de backup
+*.bak
+*.old
+
+# Arquivos de teste
+tests/
