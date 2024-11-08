@@ -1,0 +1,5 @@
+{
+    "name": "meu-projeto/heroku-app",
+    "description": "Um site em PHP hospedado no Heroku",
+    "require": {}
+}
